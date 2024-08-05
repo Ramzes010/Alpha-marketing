@@ -49,7 +49,7 @@ body {
     background-size: cover;
     background-position: center;
 }
-
+/* header */
 header{
     background: rgba(29, 1, 65, 0.30);
     backdrop-filter: blur(50px);
@@ -137,3 +137,201 @@ header{
     margin-left: 10px;
 }
 
+/* main */
+
+/* way */
+
+.way{
+    display: flex;
+    align-items: center;
+    margin: 22px 0 0 80px;
+}
+
+.way a{
+    color: #E9DEFF;
+    text-align: center;
+    font-feature-settings: 'liga' off, 'clig' off;
+    font-family: Play;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 12px;
+    text-transform: capitalize;    
+}
+
+.way a:hover{
+    text-shadow: 0px 0px 4px #D795FF;
+}
+
+.way img{
+    margin: 0 10px;
+}
+
+/* block__1 */
+
+.block__1{
+    background-image: url(../Assests/img/vector.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* block application */
+
+.block__1__title{
+    color: #FFF;
+    text-shadow: 0px 0px 20px rgba(215, 149, 255, 0.50);
+    font-family: Play;
+    margin-top: 135px;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 89px;
+    letter-spacing: -1.28px;
+    text-transform: capitalize; 
+    text-align: center;   
+}
+
+.block__1__application{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px 0 120px 0;
+}
+
+.block__1__application img{
+    margin-bottom: 50px;
+}
+
+.block__1__application a{
+    color: #FFF;
+    font-family: Play;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+
+    padding: 20px 40px;
+    font-family: 'Play';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    text-transform: uppercase;
+    background: linear-gradient(#6d5289e6, #6d5289e6) padding-box, linear-gradient(to right, #383fec, #23ffff) border-box;
+    box-shadow: 0px 0px 10px #D795FF;
+    backdrop-filter: blur(50px);
+    border-radius: 20px;    
+}
+
+.title{
+    color: #FFF;
+    text-align: center;
+    font-family: Play;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 89px;
+    font-variant: small-caps;
+    letter-spacing: -0.9px;    
+}
+
+/* block advantage */
+
+.block__1__advantage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 46px;
+}
+
+.block__1__advantage__card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 20px;
+}
+
+.block__1__advantage__card p{
+    text-align: center;
+    color: #FFF;
+    text-align: center;
+    font-family: Play;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;    
+}
+
+/* block function */
+
+.block__1__function{
+    display: flex;
+    justify-content: center;
+    margin: 120px 0;
+}
+
+.block__1__function__card{
+    display: flex;
+    border: 1px solid var(--form-stroke, #9400FF);
+    box-shadow: 0px 0px 4px 0px #D795FF, 0px 0px 20px 0px #D795FF;
+    border-radius: 20px;
+    border: 1px solid var(--form-stroke, #9400FF);    
+    margin: 0 10px;
+}
+
+.function__card__img, .function__card__img-2, .function__card__content{
+    width: 345px;
+    height: 320px;
+}
+
+.function__card__img{
+    background-image: url(../Assests/img/amoCRM.png);
+    border-radius: 20px 0px 0px 20px;
+}
+
+.function__card__img-2{
+    background-image: url(../Assests/img/b24.png);
+    border-radius: 20px 0px 0px 20px;
+}
+
+.function__card__content{
+    border-radius: 0px 20px 20px 0px;
+    background: rgba(72, 5, 114, 0.50);
+    padding-left: 20px;
+}
+
+.function__card__content__title{
+    font-family: Play;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 46.8px;
+    color: #E9C6FF97;    
+    margin: 20px 0;
+}
+
+.function{
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 10px;
+}
+
+.function p{
+    color: #FFF;
+    font-family: Play;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;       
+}
+
+.function img{
+    margin-right: 10px;
+}
+
+#function_img{
+    position: relative;
+    top: 15px;
+}
+
+/* block application-2 */
+
+    
