@@ -334,4 +334,46 @@ header{
 
 /* block application-2 */
 
-    
+.application-2{
+    border-radius: 32px;
+    border: 2px solid var(--2, #9400FF);
+    background: rgba(72, 5, 114, 0.49);
+    box-shadow: 0px 0px 10px 0px #9662FF;
+    backdrop-filter: blur(25px);    
+}
+
+.application__title{
+    color: var(--Colors-White, #FFF);
+    text-align: center;
+    font-family: "Space Grotesk";
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 52px;
+    letter-spacing: -0.4px; 
+    margin-bottom: 20px;   
+}
+
+.application__subtitle{
+    color: var(--Colors-White, #FFF);
+    text-align: center;
+    font-family: 'Space Grotesk';
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 26px;
+    margin-bottom: 17px;    
+}
+
+.application-2 .flex-position{
+    display: flex;
+    justify-content: center;
+}
+
+.application-2__input{
+    border-radius: 10px;
+    border: 5px solid var(--2, #9400FF);
+    opacity: 0.2;
+    width: 452px;
+    height: 74px; 
+    color: #fff;  
+}
+
