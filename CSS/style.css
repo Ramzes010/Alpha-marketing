@@ -343,20 +343,18 @@ header{
 }
 
 .application__title{
-    color: var(--Colors-White, #FFF);
+    color: #fff;
     text-align: center;
-    font-family: "Space Grotesk";
     font-size: 42px;
-    font-weight: 700;
     line-height: 52px;
     letter-spacing: -0.4px; 
     margin-bottom: 20px;   
 }
 
 .application__subtitle{
-    color: var(--Colors-White, #FFF);
+    color: #fff;
     text-align: center;
-    font-family: 'Space Grotesk';
+    
     font-size: 20px;
     font-weight: 300;
     line-height: 26px;
@@ -373,7 +371,17 @@ header{
     border: 5px solid var(--2, #9400FF);
     opacity: 0.2;
     width: 452px;
-    height: 74px; 
-    color: #fff;  
+    height: 74px;  
+    margin-bottom: 17px;
+    font-size: 20px;
 }
+
+::placeholder {
+    font-family: Play;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    padding-left: 24px;
+  }
 
